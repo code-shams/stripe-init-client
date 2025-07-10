@@ -8,10 +8,9 @@ const Payment = () => {
     console.log(id);
     return (
         <div className="max-w-md mx-auto mt-10 p-4 border rounded shadow">
-            {/* <Elements stripe={stripePromise}>
+            <Elements stripe={stripePromise}>
                 <CheckoutForm />
-            </Elements> */}
-            <h2>Payment</h2>
+            </Elements>
         </div>
     );
 };
